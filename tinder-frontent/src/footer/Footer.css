@@ -1,0 +1,38 @@
+.footer{
+    position: fixed;
+    bottom: 10vh;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.footer-icons{
+    background-color: white;
+    box-shadow: 0px 10px 53px 0px rgba(0, 0, 0, 0.3) !important;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.footer-icons:hover{
+    background-color: rgb(248, 234, 234);
+}
+
+.replay{
+    padding: 3px !important;
+    color: rgb(236, 183, 84) !important;
+    
+}
+.clear{
+    padding: 3px !important;
+    color: green !important;
+}
+.star{
+    padding: 3px !important;
+    color: blue !important;
+}
+.favorite{
+    padding: 3px !important;
+    color: red !important;
+}
+.flash{
+    padding: 3px !important;
+    color: purple !important;
+}
